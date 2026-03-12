@@ -1,0 +1,29 @@
+ls -lah /
+total 76K
+drwxr-xr-x  19 root root 4.0K Feb 20 11:40 .
+drwxr-xr-x  19 root root 4.0K Feb 20 11:40 ..
+lrwxrwxrwx   1 root root    7 Feb 20 11:16 bin -> usr/bin
+drwxr-xr-x   3 root root 4.0K Mar 11 22:18 boot
+drwx------   2 root root 4.0K Feb 20 11:40 .cache
+drwxr-xr-x  19 root root 3.2K Mar 11 22:50 dev
+drwxr-xr-x 122 root root  12K Mar 11 22:50 etc
+drwxr-xr-x   3 root root 4.0K Feb 20 11:54 home
+lrwxrwxrwx   1 root root   35 Feb 20 11:21 initrd.img -> boot/initrd.img-6.12.73+deb13-amd64
+lrwxrwxrwx   1 root root   35 Feb 20 11:17 initrd.img.old -> boot/initrd.img-6.12.63+deb13-amd64
+lrwxrwxrwx   1 root root    7 Feb 20 11:16 lib -> usr/lib
+lrwxrwxrwx   1 root root    9 Feb 20 11:16 lib64 -> usr/lib64
+drwx------   2 root root  16K Feb 20 11:16 lost+found
+drwxr-xr-x   5 root root 4.0K Mar 11 22:50 media
+drwxr-xr-x   3 root root 4.0K Mar 11 22:14 mnt
+drwxr-xr-x   3 root root 4.0K Mar 11 22:17 opt
+dr-xr-xr-x 285 root root    0 Mar 11 22:50 proc
+drwx------   4 root root 4.0K Mar 11 21:49 root
+drwxr-xr-x  27 root root  680 Mar 11 22:50 run
+lrwxrwxrwx   1 root root    8 Feb 20 11:16 sbin -> usr/sbin
+drwxr-xr-x   2 root root 4.0K Feb 20 11:16 srv
+dr-xr-xr-x  13 root root    0 Mar 11 22:50 sys
+drwxrwxrwt  15 root root  400 Mar 11 22:54 tmp
+drwxr-xr-x  12 root root 4.0K Feb 20 11:16 usr
+drwxr-xr-x  11 root root 4.0K Feb 20 12:16 var
+lrwxrwxrwx   1 root root   32 Feb 20 11:21 vmlinuz -> boot/vmlinuz-6.12.73+deb13-amd64
+lrwxrwxrwx   1 root root   32 Feb 20 11:17 vmlinuz.old -> boot/vmlinuz-6.12.63+deb13-amd64
