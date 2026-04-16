@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Страница-1" id="XPNzSvyVJMC7024OnAru">
+    <mxGraphModel dx="1429" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Начало" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="A, B, C, D" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-3" edge="1" parent="1" source="Lu8ohpXo8Tfj4PfgLC2g-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lu8ohpXo8Tfj4PfgLC2g-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="130" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="avg = (A + B + C + D) / 4" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-5" edge="1" parent="1" source="Lu8ohpXo8Tfj4PfgLC2g-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lu8ohpXo8Tfj4PfgLC2g-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-6" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="avg" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-7" edge="1" parent="1" source="Lu8ohpXo8Tfj4PfgLC2g-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lu8ohpXo8Tfj4PfgLC2g-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="370" as="sourcePoint" />
+            <mxPoint x="430" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Конец" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu8ohpXo8Tfj4PfgLC2g-10" edge="1" parent="1" source="Lu8ohpXo8Tfj4PfgLC2g-6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.498;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" target="Lu8ohpXo8Tfj4PfgLC2g-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

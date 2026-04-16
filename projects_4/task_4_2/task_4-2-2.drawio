@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Страница-1" id="fgifKVpDx44-RcA67Cbe">
+    <mxGraphModel dx="825" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c_O7XzC938yOlDTex9tC-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Начало" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="N" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-3" edge="1" parent="1" source="c_O7XzC938yOlDTex9tC-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_O7XzC938yOlDTex9tC-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="170" as="sourcePoint" />
+            <mxPoint x="340" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="S = (N *(N + 1)) / 2" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-5" edge="1" parent="1" source="c_O7XzC938yOlDTex9tC-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_O7XzC938yOlDTex9tC-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-6" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="S" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-7" edge="1" parent="1" source="c_O7XzC938yOlDTex9tC-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_O7XzC938yOlDTex9tC-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Конец" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="c_O7XzC938yOlDTex9tC-9" edge="1" parent="1" source="c_O7XzC938yOlDTex9tC-6" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_O7XzC938yOlDTex9tC-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="340" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
