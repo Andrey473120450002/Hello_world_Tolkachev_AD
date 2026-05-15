@@ -1,4 +1,4 @@
-boar_id: Мода не применима (идентификатор)
+boar_id: Мода не применима 
 gender: Male
 age_years: 5.9
 weight_kg: 63.5
@@ -8,3 +8,4 @@ tusk_length_cm: 0.0, 6.6, 8.2, 8.7, 9.2, 9.4
 litter_size: 0.0
 health_score: 100
 territory_ha: 0.8
+
