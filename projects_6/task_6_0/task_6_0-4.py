@@ -12,7 +12,6 @@ with open('task_6_0-4_modes.txt', 'w', encoding='utf-8') as f:
         if mode_series.empty:
             mode_str = "Нет моды"
         else:
-            # здесь отступ должен быть одинаковым (4 пробела)
             if len(mode_series) == len(df[col].dropna()):
                 mode_str = "Все значения уникальные, мода не определима"
             else:
