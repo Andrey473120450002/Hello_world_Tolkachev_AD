@@ -1,7 +1,6 @@
 import pandas as pd
 
 df = pd.read_csv('wild_boars.csv')
-# замените названия столбцов при необходимости
 males = df[df['gender'] == 'male']['tusk_length_cm']
 females = df[df['gender'] == 'female']['tusk_length_cm']
 
