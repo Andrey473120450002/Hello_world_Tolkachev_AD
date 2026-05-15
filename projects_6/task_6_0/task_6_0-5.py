@@ -22,6 +22,6 @@ with open('task_6_0-5_percentiles.txt', 'w', encoding='utf-8') as f:
                 unit = "kg"
             elif "length" in col.lower() or "tusk" in col.lower():
                 unit = "cm"
-            f.write(f"{label}:\t{value:.1f} {unit}\n".expandtabs(4))
+            f.write(f"{label}:\t{value:.1f} {unit}\n")
         f.write("\n")
 print("Перцентили сохранены в task_6_0-5_percentiles.txt")
