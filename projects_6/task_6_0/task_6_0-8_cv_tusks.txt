@@ -1,0 +1,2 @@
+Male tusk length CV: 42.54%
+Female tusk length CV: 53.12%
